@@ -1,0 +1,65 @@
+﻿.stepper {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.stepper--compact {
+  height: 20px;
+  width: 80px;
+}
+
+.stepper--regular {
+  height: 36px;
+  width: auto;
+}
+
+.stepper__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #e6ebf0;
+  border-radius: 4px;
+  background: #ffffff;
+  transition: background-color 160ms ease, opacity 160ms ease;
+  cursor: pointer;
+}
+
+.stepper__button:hover:not(:disabled) {
+  background: #f7f9fb;
+}
+
+.stepper__button--secondary {
+  background: #f0f4f7;
+}
+
+.stepper__button--secondary:hover {
+  background: #e7edf3;
+}
+
+.stepper__button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.stepper__value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  color: #0b0d10;
+}
+
+.stepper__value--compact {
+  width: 20px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.stepper__value--regular {
+  width: 32px;
+  font-size: 14px;
+}

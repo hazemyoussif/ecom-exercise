@@ -1,0 +1,27 @@
+{
+  "name": "bundle-builder",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:web": "npm run dev --workspace @bundle-builder/web",
+    "dev:api": "npm run dev --workspace @bundle-builder/api",
+    "build": "npm run build:web && npm run build:api",
+    "build:web": "npm run build --workspace @bundle-builder/web",
+    "build:api": "npm run build --workspace @bundle-builder/api",
+    "lint": "npm run lint --workspace @bundle-builder/web",
+    "test": "npm run test:web && npm run test:api",
+    "test:web": "npm run test --workspace @bundle-builder/web",
+    "test:api": "npm run test --workspace @bundle-builder/api",
+    "start": "npm run start --workspace @bundle-builder/api"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "vitest": "^4.1.10"
+  }
+}

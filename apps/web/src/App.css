@@ -1,0 +1,101 @@
+﻿.main-div{
+  display: flex;
+  gap: 2rem;
+  padding: 1rem 3rem;
+}
+
+.builder-div{
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap:13px;
+  /* background-color:blue; */
+}
+
+.review-panel-div{
+  flex: 1;
+  background-color: brown;
+}
+
+.step-div{
+}
+.step-div .header{
+  font-family:"Gilroy-Medium",sans-serif;
+  font-size:12px;
+  color:#484848;
+  padding: 5px 15px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+.step-div .title-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.step-div .title{
+  display: flex;
+  align-items: center;
+  gap:8px;
+}
+
+.step-div .title div{
+  font-family: 'Gilroy-SemiBold',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 100%;
+color: #0B0D10;
+}
+
+.step-div .content{
+ padding : 15px 20px;
+ border-top: .5px solid #1F1F1F;
+ display: flex;
+ flex-direction: column;
+ gap: 15px;
+}
+
+.opened-step{
+  border-radius: 10px;
+  background-color: #EDF4FF;
+  padding-top:15px;
+}
+.closed-step{
+  border-bottom: .5px solid #1F1F1F;
+}
+.step-products{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  .main-div{
+    flex-direction: column;
+    gap: 34px;
+  }
+  
+}
+
+@media (max-width: 992px) {
+  .main-div{
+    flex-direction: column;
+    gap: 34px;
+  }
+  
+}
+
+@media (max-width: 768px){
+.main-div{
+    flex-direction: column;
+    gap: 0px;
+    padding: 0px;
+  }
+  /* .step-products{
+    flex-direction: column;
+    
+  } */
+
+}

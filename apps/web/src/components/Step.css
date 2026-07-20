@@ -1,0 +1,33 @@
+.selected-span{
+    color: #4F46E5;
+    size:14px;
+    font-family: 'Gilroy-Medium',sans-serif;
+}
+
+.rotate-180{
+    transform: rotate(180deg);
+}
+
+.selection-count{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.next-step-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.step-button{
+    background-color:transparent; ;
+    color: #4F46E5;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 24px;
+    cursor: pointer;
+    border: 1px solid #4F46E5;
+}

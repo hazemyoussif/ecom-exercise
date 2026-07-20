@@ -1,0 +1,109 @@
+{
+  "products": [
+    {
+      "id": "wyze_cam_v4",
+      "categoryId": "cameras",
+      "name": "Wyze Cam v4",
+      "description": "The clearest Wyze Cam ever made.",
+      "link": "#",
+      "basePrice": 27.99,
+      "compareAtPrice": 35.98,
+      "badge": "Save 22%",
+      "variants": [
+        { "id": "white", "label": "White", "colorCode": "#FFFFFF", "image": "https://www.wyze.com/cdn/shop/files/wyze-cam-v4-wyze-labs-inc-5186547.png" },
+        { "id": "grey", "label": "Grey", "colorCode": "#808080", "image": "https://www.wyze.com/cdn/shop/files/wyze-cam-v4-wyze-labs-inc-7932440.png" },
+        { "id": "black", "label": "Black", "colorCode": "#000000", "image": "https://www.wyze.com/cdn/shop/files/wyze-cam-v4-wyze-labs-inc-2811136.png" }
+      ]
+    },
+    {
+      "id": "wyze_cam_pan_v3",
+      "categoryId": "cameras",
+      "name": "Wyze Cam Pan v3",
+      "description": "360° pan and 180° tilt security camera.",
+      "link": "#",
+      "basePrice": 33.99,
+      "compareAtPrice": 39.99,
+      "badge": "Save 14%",
+      "variants": [
+        { "id": "white", "label": "White", "colorCode": "#FFFFFF", "image": "https://www.wyze.com/cdn/shop/files/wyze-cam-pan-v3-wyze-labs-inc-4415418.webp" },
+        { "id": "black", "label": "Black", "colorCode": "#000000", "image": "https://www.wyze.com/cdn/shop/files/refurbished-wyze-cam-pan-v3-wyze-labs-inc-689365.png" }
+      ]
+    },
+    {
+      "id": "wyze_cam_floodlight_v2",
+      "categoryId": "cameras",
+      "name": "Wyze Cam Floodlight v2",
+      "description": "2K floodlight camera with a 160° wide-angle view for your garage.",
+      "link": "#",
+      "basePrice": 89.99,
+      "compareAtPrice": 109.99,
+      "badge": "Save 20%",
+      "variants": [
+        { "id": "white", "label": "White", "colorCode": "#FFFFFF", "image": "https://www.wyze.com/cdn/shop/files/wyze-cam-floodlight-v2-wyze-labs-inc-339891.png" },
+        { "id": "black", "label": "Black", "colorCode": "#000000", "image": "https://www.wyze.com/cdn/shop/files/wyze-cam-floodlight-v2-wyze-labs-inc-863303.png" }
+      ]
+    },
+    {
+      "id": "wyze_duo_cam_doorbell",
+      "categoryId": "cameras",
+      "name": "Wyze Duo Cam Doorbell",
+      "description": "Two cameras. Two views. Double the porch protection.",
+      "link": "#",
+      "basePrice": 69.99,
+      "variants": [
+        { "id": "black", "label": "Black", "colorCode": "#000000", "image": "https://www.wyze.com/cdn/shop/files/wyze-duo-cam-battery-doorbell-wyze-labs-inc-148701.png" }
+      ]
+    },
+    {
+      "id": "wyze_battery_cam_pro",
+      "categoryId": "cameras",
+      "name": "Wyze Battery Cam Pro",
+      "description": "Protect anywhere. See everything in 2.5K HDR. No power outlet or electrician needed.",
+      "link": "#",
+      "basePrice": 89.99,
+      "variants": [
+        { "id": "white", "label": "White", "colorCode": "#FFFFFF", "image": "https://www.wyze.com/cdn/shop/files/wyze-battery-cam-pro-wyze-labs-inc-1939761.png" },
+        { "id": "black", "label": "Black", "colorCode": "#000000", "image": "https://www.wyze.com/cdn/shop/files/wyze-battery-cam-pro-wyze-labs-inc-5922471.png" }
+      ]
+    },
+    {
+      "id": "wyze_sense_motion",
+      "categoryId": "sensors",
+      "name": "Wyze Sense Motion Sensor",
+      "basePrice": 29.99,
+      "variants": [{ "id": "default", "label": "Default", "image": "https://www.wyze.com/cdn/shop/products/wyze-sense-motion-sensor-wyze-labs-inc-814192.png" }]
+    },
+    {
+      "id": "wyze_sense_hub",
+      "categoryId": "sensors",
+      "name": "Wyze Sense Hub (Required)",
+      "compareAtPrice": 29.92,
+      "basePrice": 0.00,
+      "variants": [{ "id": "default", "label": "Default", "image": "https://www.wyze.com/cdn/shop/products/wyze-sense-hub-wyze-labs-inc-960449.png" }]
+    },
+    {
+      "id": "wyze_microsd_256",
+      "categoryId": "accessories",
+      "name": "Wyze MicroSD Card (256GB)",
+      "basePrice": 20.99,
+      "variants": [{ "id": "default", "label": "Default", "image": "https://www.wyze.com/cdn/shop/products/wyze-microsd-card-wyze-labs-inc-814588.png" }]
+    },
+    {
+      "id": "cam_unlimited",
+      "categoryId": "plan",
+      "name": "Cam Unlimited",
+      "compareAtPrice":12.99,
+      "basePrice": 9.99,
+      "isSubscription": true,
+      "variants": [{ "id": "default", "label": "Default", "image": "http://localhost:3000/images/plan.svg" }]
+    }
+  ],
+  "initialCart": {
+    "wyze_cam_v4_white": 1,
+    "wyze_cam_pan_v3_white": 2,
+    "wyze_sense_motion_default": 1,
+    "wyze_sense_hub_default": 1,
+    "wyze_microsd_256_default": 2,
+    "cam_unlimited_default": 1
+  }
+}
